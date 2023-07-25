@@ -7,7 +7,7 @@ export const Mainroutes = () => {
   return (
     <div>
       <Routes>
-        <Route path="/home" element={<Traveldata />} />
+        <Route path="/" element={<Traveldata />} />
         <Route path="/details" element={<TravelDetails />} />
         <Route path="/aboutAnushka" element={<AboutAnushka />}/>
       </Routes>

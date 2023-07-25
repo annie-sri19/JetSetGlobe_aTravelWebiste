@@ -9,22 +9,6 @@
         justify-content: center;
         flex-direction: column;
         padding: 0 1.5rem;
-        input {
-            background-color: transparent;
-            border: none;
-            text-align: center;
-            color: rgb(4, 41, 120);
-            &[type="date"] {
-            padding-left: 3rem;
-            }
-
-            &::placeholder {
-            color: rgb(2, 10, 42);
-            }
-            &:focus {
-            outline: none;
-            }
-        }
     }
     Button {
         padding: 1rem;
@@ -40,6 +24,22 @@
         &:hover {
         background-color: #023e8a;
         }
+    }
+}
+.input {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: rgb(4, 41, 120);
+    &[type="date"] {
+    padding-left: 3rem;
+    }
+
+    &::placeholder {
+    color: rgb(2, 10, 42);
+    }
+    &:focus {
+    outline: none;
     }
 }
 .label {
