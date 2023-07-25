@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import {
   Button,
   FormControl,
+  FormLabel,
   Heading,
+  Input,
   InputGroup,
   InputLeftElement,
   Select,
@@ -48,10 +50,10 @@ export const Traveldata = () => {
       <Heading as="h1" mb="8" textAlign="center" className="header" >
         Please enter your Travel Details
       </Heading>
-        <div className="form-inline" onSubmit={submitForm}>
+        <form onSubmit={submitForm} className="form-inline">
           <FormControl mb="4" isRequired className="container">
-            <label htmlFor="name" className="label">Name</label>
-            <input
+            <FormLabel htmlFor="name" className="label">Name</FormLabel>
+            <Input
               type="text"
               name="Name"
               onChange={handleChange}
@@ -60,8 +62,8 @@ export const Traveldata = () => {
             />
           </FormControl>
           <FormControl mb="4" isRequired className="container">
-            <label className="label" htmlFor="email">Email</label>
-            <input
+            <FormLabel htmlFor="email" className="label">Email</FormLabel>
+            <Input
               type="email"
               name="Email"
               onChange={handleChange}
@@ -70,7 +72,7 @@ export const Traveldata = () => {
             />
           </FormControl>
           <FormControl mb="4" isRequired className="container">
-            <label className="label">Where do you want to go?</label >
+            <FormLabel className="label">Where do you want to go?</FormLabel>
             <Select
               placeholder="choose location"
               name="Location"
@@ -82,8 +84,8 @@ export const Traveldata = () => {
             </Select>
           </FormControl>
           <FormControl mb="4" isRequired className="container">
-            <label className="label">No. of travellers</label>
-            <input
+            <FormLabel className="label">No. of travellers</FormLabel>
+            <Input
               type="number"
               name="No_of_travellers"
               onChange={handleChange}
@@ -98,7 +100,7 @@ export const Traveldata = () => {
                 color="gray.300"
                 fontSize="1.2em"
               />
-              <input
+              <Input
                 type="number"
                 name="Budget"
                 onChange={handleChange}
@@ -116,8 +118,8 @@ export const Traveldata = () => {
           >
             {loading ? "Loading..." : "Submit"}
           </Button>
-        </div>
-      <br/>
+        </form>
+        <br/>
       <Cards />
       <Footer />
     </>
