@@ -11,17 +11,24 @@ Thrid page is about the developer.
 
 # Tech-stack-used
 Frontend: React.js, Html, Css, JavaScript
+
 Backend : Node.js, Express.js, MongoDb, Mongoose
 
 # npm start 
   ---Runs the app in the development mode.
+  
   ---Open http://localhost:3000 to view it in your browser.
+  
   ---go to /Frontend/travelapp folder and run 
+  
   --- initially takes time to get data from server
+  
 
 2. Backend 
 # npm run test 
     -- got to /Backend folder
+    
     --contains multiple test for requesting data from server and to post data to server
+    
 
 
