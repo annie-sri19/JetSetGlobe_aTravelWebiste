@@ -4,8 +4,12 @@ Jet Set Globe
 Three pages application.
 
 First page contains a Travel Deatils Form and catching look of the website.
+
+Deployed Code Url: https://jetsetglobe.vercel.app/
 ![image](https://github.com/annie-sri19/JetSetGlobe_aTravelWebiste/assets/40366495/37321648-d8e9-4970-9fbb-dd1b02748b84)
 The second page display all the details filled by different travellers in table form.
+
+Deployed Code Url: https://jetsetglobe.vercel.app/details
 ![image](https://github.com/annie-sri19/JetSetGlobe_aTravelWebiste/assets/40366495/b91fb2aa-cfad-43d5-ad1b-2ac5fe604aea)
 Thrid page is about the developer.
 
