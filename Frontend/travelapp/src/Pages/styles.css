@@ -1,0 +1,94 @@
+.form-inline{
+    display: flex;
+    background-color: #ffffffce;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 1.5rem;
+        input {
+            background-color: transparent;
+            border: none;
+            text-align: center;
+            color: rgb(4, 41, 120);
+            &[type="date"] {
+            padding-left: 3rem;
+            }
+
+            &::placeholder {
+            color: rgb(2, 10, 42);
+            }
+            &:focus {
+            outline: none;
+            }
+        }
+    }
+    Button {
+        padding: 1rem;
+        cursor: pointer;
+        border-radius: 0.3rem;
+        border: none;
+        color: white;
+        background-color: #4361ee;
+        font-size: 40rem;
+        text-transform: uppercase;
+        transition: 0.3s ease-in-out;
+        padding-left: 3rem;
+        &:hover {
+        background-color: #023e8a;
+        }
+    }
+}
+.label {
+    font-size: 1.0rem;
+    color: #03045e;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formLabel {
+    margin: 5px 10px 5px 0;
+}
+.form-inline Input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.header{
+    color: #fff;
+    font-size: 70px;
+    margin-top: -100px;
+}
+.ol{
+    list-style: number;
+}
+.mainDiv{
+    display: flex;
+    list-style: number;
+    gap: 2rem;
+    background-color: linear-gradient(90deg, rgb(251, 252, 255) 0%, rgb(120, 148, 251) 100%);
+}
+img{
+    display: block;
+    margin-left: 5rem;
+    margin-right: auto;
+    height: 500px;
+}
+h1 {
+    color:#141d59;
+    font-size: 80px;
+    margin-top: 0;
+}
+li{
+    color:#04061dce
+}
+.ul{
+    margin-left: 3rem;
+}
+.AboutAnushka{
+    background-color: linear-gradient(90deg, rgb(251, 252, 255) 0%, rgb(120, 148, 251) 100%);
+}
