@@ -9,8 +9,8 @@ import img8 from '../../assets/images/img-8.jpg';
 
 function Cards() {
   return (
-    <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+    <div className='cards' id ="services">
+      <h2>Check out these EPIC Destinations!</h2>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>

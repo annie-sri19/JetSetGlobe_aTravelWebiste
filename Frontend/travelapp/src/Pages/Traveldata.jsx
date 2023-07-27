@@ -3,7 +3,6 @@ import {
   Button,
   FormControl,
   FormLabel,
-  Heading,
   Input,
   InputGroup,
   InputLeftElement,
@@ -47,10 +46,7 @@ export const Traveldata = () => {
     <>
       <Navbar />
       <HeroSection />
-      <Heading as="h1" mb="8" textAlign="center" className="header" >
-        Please enter your Travel Details
-      </Heading>
-        <form onSubmit={submitForm} className="form-inline">
+        <form onSubmit={submitForm} className="form-inline" id="form">
           <FormControl mb="4" isRequired className="container">
             <FormLabel htmlFor="name" className="label">Name</FormLabel>
             <Input
@@ -119,7 +115,6 @@ export const Traveldata = () => {
             {loading ? "Loading..." : "Submit"}
           </Button>
         </form>
-        <br/>
       <Cards />
       <Footer />
     </>
